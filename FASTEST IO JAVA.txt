@@ -136,6 +136,7 @@ public class Main {
 		Reader s = new Reader();
 		int n = s.nextInt();
 		int k = s.nextInt();
+		char c=(char)s.read();  
 		int count = 0;
 		while (n-- > 0) {
 			int x = s.nextInt();
